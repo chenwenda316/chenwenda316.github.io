@@ -18,6 +18,11 @@ export default navbar([
         link: "C++/README.md"
       },
       {
+        text: "Python",
+        icon: "logos:python",
+        link: "Python/README.md"
+      },
+      {
         text: "算法",
         icon: "code",
         link: "algorithm/README.md"
