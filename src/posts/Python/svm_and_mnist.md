@@ -13,7 +13,7 @@ title: SVM 相关
 
 原生 SVM 只能处理双分类问题，可以通过构建多个 SVM 来实现多分类问题。
 
-支持向量机的优化问题可以表达为，$$\min_{W,b}{\dfrac{1}{2}\left\lVert w \right\rVert} \\ s.t.\quad y_i(w^T\rm{x}+b) \geq1$$
+支持向量机的优化问题可以表达为，$$\min_{W,b}{\dfrac{1}{2}\left \lVert w \right \rVert} \\ s.t. \quad y_i(w^T\rm{x}+b) \geq1$$
 
 **软间隔和硬间隔**
 
@@ -21,7 +21,7 @@ title: SVM 相关
 这时就需要引入软间隔支持向量机。它允许一些数据点位于分类超平面的错误一侧或者在间隔内。
 为了处理这种情况，引入了松弛变量 $ξi$​，它表示第 $i$ 个数据点违反约束的程度。
 
-软间隔支持向量机的优化问题可以表达为，$$\min_{W,b}{\dfrac{1}{2}\left\lVert w \right\rVert} +C\sum{ξi}\\ s.t.\quad y_i(w^T\rm{x}+b) \geq1 -ξi\quad (ξi​≥0)$$
+软间隔支持向量机的优化问题可以表达为，$$\min_{W,b}{\dfrac{1}{2}\left \lVert w \right \rVert} +C\sum{ξi}\\ s.t.\quad y_i(w^T\rm{x}+b) \geq1 -ξi\quad (ξi​≥0)$$
 
 
 **非线性支持向量机**
