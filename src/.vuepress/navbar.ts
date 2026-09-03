@@ -27,6 +27,11 @@ export default navbar([
         icon: "code",
         link: "algorithm/README.md"
       },
+      {
+        text: "杂记",
+        icon: "book",
+        link: "杂记/README.md"
+      },
     ],
   },
   {
