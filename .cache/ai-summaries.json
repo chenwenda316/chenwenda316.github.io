@@ -1,4 +1,335 @@
 {
   "version": 1,
-  "entries": {}
+  "entries": {
+    "posts/Python/cnn_and_some_concept.md": {
+      "contentHash": "16bb583ea05f6538ba4f0dd8a02fec53dd273d70201ac32a0b5cd8f8d56cc1b6",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "文章介绍卷积神经网络的基本概念，包括卷积核、填充与步幅、输入输出通道和池化层，并说明混淆矩阵、准确率、召回率、精确率、F1分数及损失等模型评估指标，最后区分监督学习与无监督学习。"
+    },
+    "posts/Python/quick_start.md": {
+      "contentHash": "d4c13f94a1131344c19256c45dd1196a04f29e1cd346dceb763bcd80569b8440",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇教程面向有编程基础但未接触过Python的读者，介绍环境搭建、变量、流程控制、列表字典等数据结构、函数、类、模块、文件操作、异常处理及列表推导式、生成器、装饰器等特性，帮助快速上手Python。"
+    },
+    "posts/Python/svm_and_mnist.md": {
+      "contentHash": "acfc4835c9c5c4edf7f693bc04a32eda49e7c695bd1d272dd9b631b4de72933d",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "文章介绍支持向量机的基本原理，包括硬间隔、软间隔、松弛变量与核技巧，并说明原生SVM通过多个二分类器处理多分类。随后给出一个参考LeNet的卷积神经网络实现，用于MNIST手写数字识别，训练3轮后测试准确率为96.58%。"
+    },
+    "posts/C++/0x00.md": {
+      "contentHash": "e49375525aa6abc54b2cecca396284c7515ba5053fa02f0ff4d2705c2aac9ee3",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "文章以“Hello, world!”程序为例，逐行讲解C++入门知识，包括头文件、命名空间、主函数、cout输出、返回值及注释，并指出endl与\\n在性能上的差异，为初学者梳理基础概念。"
+    },
+    "posts/C++/0x01.md": {
+      "contentHash": "3b3334bbfcfdd6a03c4f52ea2515f287f0a8894035b2887ee1ac7bbe0c3ab9d3",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "文章介绍C++基础语法，先区分表达式与语句，说明表达式产生值、语句以分号结尾，并举例逗号运算符；随后讲解变量类型及字节数，列举整型、浮点型、布尔、结构体、类与auto，并说明unsigned、const等修饰符及溢出问题。"
+    },
+    "posts/algorithm/ABC421.md": {
+      "contentHash": "f4e525b9244ae8af05599b0a459d4e3f0817790b0994eba766721d839fe0842d",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "本场 AtCoder Beginner Contest 421 共 A–G 七题，整体难度适中。题解逐题给出题意、思路与参考代码，重点讲解 D 的 RLE 时间轴合并、F 的链表插入与区间删除、G 的差分转化最小费用流。"
+    },
+    "posts/algorithm/ABC422.md": {
+      "contentHash": "6ed902235317b40ca401782d8eb4a116f4508552ae77691d7962dde55ad396a1",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 422 题解覆盖 A 至 G 共七题，整体难度中等偏上。文章逐题给出题意、思路、参考代码与复杂度，涉及网格模拟、贪心构造、逆向归纳、随机化几何、分层图 DP 及生成函数与 NTT 卷积等内容。"
+    },
+    "posts/algorithm/ABC423.md": {
+      "contentHash": "b32bd8038fcc4ad0615e89502c0d0d0d263ebf3361af76850793724db3f31155",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 423 题解覆盖 A 至 G 共七题，逐题给出题意、思路、参考代码与复杂度分析。整体难度偏低，重点在 C 的贪心区间构造、D 的优先队列排队模拟、E 的换贡献视角加前缀和，以及 G 结合模逆元与枚举的字符串构造。"
+    },
+    "posts/algorithm/ABC424.md": {
+      "contentHash": "889625c6129b47799712224be825f0d47ad38e479c32e37d71345f6e90b39a28",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解整理了 AtCoder Beginner Contest 424 的 A 至 G 题解法，涵盖签到判断、图可达性、状态压缩 DP、二分答案、括号序列与线段树、Gale-Ryser 型约束加 DP 等内容，并重点分析了 E、F、G 三题的思路与实现。"
+    },
+    "posts/algorithm/ABC425.md": {
+      "contentHash": "29b904224bd9385942a3b349521c62a4b63c318cfe71d45b4177194c801c8dd7",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解整理了 AtCoder Beginner Contest 425 的 A 至 G 共七道题，逐题给出题意、思路、参考代码与复杂度分析。其中 E、F、G 较有区分度，分别涉及任意模数下的多重组合数、状态压缩 DP 去重和按最高位分治的递归。"
+    },
+    "posts/algorithm/ABC426.md": {
+      "contentHash": "3b21d4d61d704f108d44931e0706c6daa4e8799e5838dec256643f17c185f8d7",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 426 题解覆盖 A 至 G 共七题，逐题给出题意、思路、参考代码与复杂度。重点讲解 D 题组合计数、F 题懒标记线段树维护售罄事件、G 题序列分治配合背包 DP 回答区间查询。"
+    },
+    "posts/algorithm/ABC427.md": {
+      "contentHash": "59055f337525e85dbad6067a6ea0054b2c338cd858cfbe23a1166e0affe0de64",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 427 题解覆盖 A 至 G 共七题，逐题给出题意、思路、参考代码与复杂度分析，重点讲解 C 的染色枚举、D 的博弈倒推 DP、E 的状态压缩 BFS、F 的折半搜索以及 G 的平衡树维护等差段。"
+    },
+    "posts/algorithm/ABC428.md": {
+      "contentHash": "f78f79102f64865ed1676a46043f4284a3269877e863a41ef2ef8b5f71926850",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 428 题解覆盖 A 至 G 共七题，涉及括号序列栈判定、按位数分组统计平方数、树的直径与编号 tie-break、区间嵌套块结构及 Pólya 计数等，逐题给出思路、代码与复杂度分析。"
+    },
+    "posts/algorithm/ABC429.md": {
+      "contentHash": "34566daed1b385103944b3df536533feea5213a2d655b513037736d531e6a3a3",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 429 题解覆盖 A 至 G 共 7 题，逐题给出题意、思路、参考代码与复杂度。重点讲解 D 的区间压缩加双指针、E 的多源 BFS 求次近源、F 的 min-plus 矩阵复合与线段树，以及 G 的 sqrt 启发式分解等差数列。"
+    },
+    "posts/algorithm/ABC430.md": {
+      "contentHash": "1681f2d6e4960e1a021583283f7cd37b2fdf1eb9577980e2c96410b38c07594f",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "本场 AtCoder Beginner Contest 430 题解覆盖 A 至 G 共七题，从条件判断、暴力枚举去重、前缀和双指针区间计数，到差分更新、Z 算法、连续区间定理及 Segment Tree Beats，逐题给出思路、代码与复杂度分析。"
+    },
+    "posts/algorithm/ABC431.md": {
+      "contentHash": "4fbce6b7fe304e5f3c255863f28283a7ee99ebb29af1efb82373245cbd01db05",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解记录了 AtCoder Beginner Contest 431（A–G 共 7 题）的解法，以机器人为背景串联 A–D，涵盖分支判断、数组状态维护、排序贪心、01 背包 DP，以及 E 的 01-BFS 图建模、F 的插入 DP 与组合计数、G 的字典序结构分析。"
+    },
+    "posts/algorithm/ABC432.md": {
+      "contentHash": "c3b88b0ac8c9178ee8aa12697df605947cc5937c32d23f17992ae3f77d2aa30a",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 432 题解覆盖 A 至 G 共七题，从排序签到、代数推导、矩形分裂加并查集，到树状数组、子集 DP 与 NTT 卷积，逐题给出思路、参考代码和复杂度分析。"
+    },
+    "posts/algorithm/ABC433.md": {
+      "contentHash": "c4a3d28d3e59e567c1d7ee965a3bc05e4c0f4cb7d0d11612d9b6eebd0cdc4e22",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 433 题解覆盖 A 至 G 共七题，整体难度适中偏上。内容逐题给出题意、思路推导、参考代码与复杂度分析，涉及一元方程判断、双重遍历、1122 串的子串与子序列计数、按位数分组取模计数、矩阵构造、范德蒙德恒等式及后缀自动机博弈 DP。"
+    },
+    "posts/algorithm/ABC434.md": {
+      "contentHash": "cfebc56cb0444601c2f268c2ce69f651a8910dc300b036a3e70b754d4b25b2e8",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解记录了 AtCoder Beginner Contest 434（A–G 共 7 题）的解法，涵盖贪心维护可行高度区间、二维差分统计覆盖、图论建模与线段树压缩信息等技巧，并给出各题思路、参考代码及复杂度分析。"
+    },
+    "posts/algorithm/ABC435.md": {
+      "contentHash": "84fffb3dc3e470658711c699af7ab90e6f11c77ac1e3d6a8e49417dc7f658280",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 435 题解覆盖 A–G 七题，逐题给出题意、思路、参考代码与复杂度。重点讲解 E 的区间覆盖、F 归约到笛卡尔树树形 DP、G 用懒标记加速递推计数。"
+    },
+    "posts/algorithm/ABC436.md": {
+      "contentHash": "ba09d9ddea90d985d6ce08838072f1eb3b933c66bdd25a8229d427d0c3fd328a",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解记录了 AtCoder Beginner Contest 436（A–G 共 7 题）的解法，涵盖字符串补齐、奇数阶幻方模拟、大网格 2×2 方块重叠判定、传送格 BFS、置换环计数、Fenwick 树统计及 NTT 加速的计数题，并给出各题思路、参考代码与复杂度分析。"
+    },
+    "posts/algorithm/ABC437.md": {
+      "contentHash": "e048cd43cfcc668e1e961cc2815c1e5d85471527ecbdc27f4cdac2d7e2c90939",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 437 题解涵盖 A 至 G 共 7 题，整体难度中等偏基础。文章逐题给出题意、思路、参考代码与复杂度分析，重点讲解 C 的贪心转化、D 的绝对值前缀和、E 的 Trie 排序、F 的曼哈顿距离旋转 45° 配合线段树，以及 G 的最大流建模与贪心重构删除顺序。"
+    },
+    "posts/algorithm/ABC438.md": {
+      "contentHash": "b7928d060c38cf23bf4a509b27bd7e7a3564d0ce944b5e430390cb0b05f87298",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解记录了 AtCoder Beginner Contest 438（A–G 共 7 题）的解法，难度从签到题阶梯式上升到函数图倍增、树上路径统计和 gcd 拆分加离线树状数组等考点，重点讲解了 F 的路径覆盖转化与 G 的互素化区间拆分思路。"
+    },
+    "posts/algorithm/ABC439.md": {
+      "contentHash": "6863ebf960da8630b283074ae9cb9ac41c14478fca99ae72abd110edd58a0d98",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "2026年首场AtCoder Beginner Contest 439共A至G七题，难度分布均匀，多题与数字2026呼应。文章逐题给出题意、思路、参考代码与复杂度分析，涵盖位运算、快乐数判环、反向枚举、事件扫描、LIS转化、组合计数及幂投影与形式幂级数等解法。"
+    },
+    "posts/algorithm/ABC440.md": {
+      "contentHash": "679e4ec6298cb9b7471f7839ad5c26819bcb56c68f9894fe706b552620dd4e60",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 440 题解覆盖 A 至 G 共七题，逐题给出题意、思路与参考代码。内容涉及同余类合并与滑动窗口、排序二分计数、优先队列枚举、贪心配合值域线段树，以及分层图 DP 等做法。"
+    },
+    "posts/algorithm/ABC441.md": {
+      "contentHash": "09a42972642bd99dfa1ff80fa10162ea79315613a4f8f6c9327c3f9ac7c8181d",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解记录了 AtCoder Beginner Contest 441（A–G 共 7 题）的解法，逐题给出题意、思路、参考代码与复杂度分析，重点讲解 C 的排序贪心、E 的前缀差计数、F 的前后缀背包分类和 G 的带翻转懒标记线段树。"
+    },
+    "posts/algorithm/ABC442.md": {
+      "contentHash": "296d7f1f94783b31e5b1019ce7a9f6dda551a8f7afcb3d0dd7153605daafdf70",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解记录了 AtCoder Beginner Contest 442（A–G 共 7 题）的解法，整体难度中等偏易。文章逐题给出题意、思路、参考代码与复杂度，重点讲解 D 的相邻交换只改变一个前缀和、F 将行列染色条件转化为非递增序列后做 O(N²) DP、G 利用 6/3/2 件打包成重量 6 再贪心。"
+    },
+    "posts/algorithm/ABC443.md": {
+      "contentHash": "f23b43dd0064f0159eab043bbb1c31f37fbd4c477eb5a1b984984d0af5fedd22",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 443 题解覆盖 A 至 G 共七题，逐题给出题意、思路、参考代码与复杂度。其中 D、F、G 较有区分度，分别涉及约束传播、图论建模与 floor sum 数论方法。"
+    },
+    "posts/algorithm/ABC444.md": {
+      "contentHash": "4b304d3389e005014d98fc4240f45d127da6509e1084ae37cd726044970ad68a",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解记录了 AtCoder Beginner Contest 444 的 A 至 G 题解法，涵盖数位判断、数位和统计、配对贪心、按位列竖式加法、滑动窗口、二分答案与 Gauss 整数数论等内容，并给出各题思路、参考代码和复杂度分析。"
+    },
+    "posts/algorithm/ABC445.md": {
+      "contentHash": "a236c7fd36fb4e17667ec30a0dfb60301513c07551d6adda2eda25b3abb96e06",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 445 题解覆盖 A 至 G 共七题，从签到题到压轴题，重点讲解 C 的倒推 DP、D 的断头台贪心构造、E 的质因数指数处理 Lcm、F 的 min-plus 矩阵快速幂，以及 G 将棋子放置建模为二分图最大独立集并用最大流求解。"
+    },
+    "posts/algorithm/ABC446.md": {
+      "contentHash": "41d8456e08de8b652dcf0a83c2e5223e75565482ba27e1b46ce75f13ac4c69e9",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解记录了 AtCoder Beginner Contest 446（A–G 共 7 题）的解法，涵盖模拟、队列 FIFO、按值 DP、反向图 BFS、增量可达性维护和去重计数 DP 等技巧，并给出各题思路、参考代码与复杂度分析。"
+    },
+    "posts/algorithm/ABC447.md": {
+      "contentHash": "321792af7169863ad303d7db039bb2c2ea8df60a15ec113296c865967c2f36c7",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 447 题解涵盖 A 至 G 共七题，整体难度中等。文章逐题给出题意、思路、参考代码与复杂度，重点讲解 E 的并查集贪心、F 的树形 DP 和 G 的前后缀 top-k 加线段树。"
+    },
+    "posts/algorithm/ABC448.md": {
+      "contentHash": "e5822feb0edf2b1c7b7f610c2b82fa2914c5c40d47a870f675d9f44913028d30",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 448 题解覆盖 A–G 七题，从签到模拟、分组求和，到观察题、树上路径维护、游程编码大数取模、哈密顿回路构造，以及结合 minimax 定理与凸包的博弈论难题，逐题给出思路、正确性说明与参考代码。"
+    },
+    "posts/algorithm/ABC449.md": {
+      "contentHash": "1ad3babf5e30bf379ee68d3af4e316824854e766dd61f7c5fd20347b95cd8b5b",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 449 题解覆盖 A 至 G 共七题，从圆面积、矩形模拟、滑动窗口计数等签到与基础题，到过程压缩配合离线 BIT、扫描线求矩形并、生成函数与差分方程计数等进阶内容，逐题给出思路、代码与复杂度分析。"
+    },
+    "posts/algorithm/ABC450.md": {
+      "contentHash": "c0a0de1fa5100f54ce79ecae4b71f1c2837854cd9b6debf74530415fe15a447c",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解记录了 AtCoder Beginner Contest 450（A–G 共 7 题）的解法，从 A 的签到输出、C 的连通块计数，到 D 的余数滑窗、E 的 Fibonacci 字符串递归计数、F 的强连通化简与线段树 DP、G 的期望线性性推导，逐题给出思路、代码与复杂度。"
+    },
+    "posts/algorithm/ABC451.md": {
+      "contentHash": "c4578ee77da075e5d9a35c4a394c6b75442c493775e0760705b6a071a9605e5c",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 451 题解覆盖 A 至 G 共七题，从签到计数、堆模拟、按位数递推枚举，到距离矩阵构造树、DSU 按大小合并判二分图，以及线性基配合二进制 Trie 求最小异或游走，并给出各题思路、代码与复杂度分析。"
+    },
+    "posts/algorithm/ABC452.md": {
+      "contentHash": "d0b0977db8059f16e2c6157cf8285f917f53d6ddd37d7b7809722feb662d0bad",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解记录了 AtCoder Beginner Contest 452（A–G 共7题）的解法，涵盖模拟、预处理查表、子序列匹配DP、调和级数分组求和、滑动窗口加树状数组，以及游程编码配合后缀数组统计互异子串等技巧。"
+    },
+    "posts/algorithm/ABC453.md": {
+      "contentHash": "711a8615f3b2e42f66f6390da54bdf2c7f9b8e64ad4d5aef8b4ca24eba310f34",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解覆盖 AtCoder Beginner Contest 453 的 A 至 G 七题，逐题给出题意、思路与参考代码。其中 D 题将格子与上次方向建模为状态图做 BFS，E 题按 A 队人数扫描并用差分维护四类人数，F、G 分别涉及树上构造与可持久化线段树。"
+    },
+    "posts/algorithm/ABC454.md": {
+      "contentHash": "6516588805adeb8e26784f780f247187a68dcfa6e1fc9dd99ad74aa8ef9bddb7",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "本场 AtCoder Beginner Contest 454 题解涵盖 A–G 七题，从区间计数、集合判断、有向图 BFS，到字符串规范形式归约、网格哈密顿路径构造、差分与贪心求最少回文化操作，以及树上启发式合并求子树众数。"
+    },
+    "posts/algorithm/ABC455.md": {
+      "contentHash": "0fec8fc890234f86e6a5f718a393eeb448f1082e5c6d942f1780292ddd63055c",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "本场 AtCoder Beginner Contest 455 共 A–G 七题，难度梯度清晰。文章逐题给出题意、思路与参考代码，重点讲解 D 题链表维护整叠移动、F 题合并代价与顺序无关配合懒标记线段树、G 题滑动窗口加随机哈希统计平衡子数组。"
+    },
+    "posts/algorithm/ABC456.md": {
+      "contentHash": "cf3b03dce2f1dd31e5349ee85ed80a4b72a14d3f78620201462c452ecdf9094e",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 456 题解涵盖 A 至 G 共七题，涉及骰子概率、相邻字符不等的子串与子序列计数、带星期维度的图判环、min-plus 矩阵加速 DP 以及容斥计数等内容，并给出各题思路、参考代码与复杂度分析。"
+    },
+    "posts/algorithm/ABC457.md": {
+      "contentHash": "4571885a85859daab87eeb5dbb3cc33c8fa879642740fa7a58c56c9e20275f1b",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 457 题解覆盖 A 至 G 共七题，从数组存取、变长序列、重复拼接定位、二分答案，到区间覆盖分类讨论、插入型 DP 计数，以及用偏序与 Dilworth 定理转化为最长下降子序列求最少机器人数的思路与代码。"
+    },
+    "posts/algorithm/ABC458.md": {
+      "contentHash": "2cb4ea64ab22942cff1630b61acdad61e22f8f13177e2734fe53536dd199f9e7",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解覆盖 AtCoder Beginner Contest 458 的 A 至 G 共七题，从字符串切片、网格计数、中位数双堆到组合计数、AC 自动机矩阵快速幂和斜率优化二分，逐题给出思路、参考代码与复杂度分析。"
+    },
+    "posts/algorithm/ABC459.md": {
+      "contentHash": "c865d1090f097505e60d03c9c62fbfe35cf9e74de95656312fbe24d7dc803e80",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 459 题解覆盖 A 至 G 共七题，逐题给出题意、思路与参考代码。内容涉及字符串删除与映射、全局删除的懒惰计数、重排字符串使相邻字符不同、子树取糖的组合计数、序列严格递增的最少操作数，以及棋盘最少步数问题。"
+    },
+    "posts/algorithm/ABC460.md": {
+      "contentHash": "160d86c38ec30841ec746941c4089b201398e34c8bd44c6c771251fc843c460b",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这是 AtCoder Beginner Contest 460 的题解，涵盖 A 至 G 共七题。文章逐题说明题意、思路与参考代码，重点讲解 D 题元胞自动机的 BFS 奇偶性、F 题集合直径合并与线段树、G 题树上换根 DP 的动态维护。"
+    },
+    "posts/algorithm/ABC461.md": {
+      "contentHash": "1d323468cbd2fa766436e1a62b40a7b96b019a77bdd7fff5bee8866a0ddadb7b",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解覆盖 AtCoder Beginner Contest 461 的 A 至 G 七题，逐题给出题意、思路、参考代码与复杂度。内容从签到题到贪心、前缀和双指针、树状数组、计数 DP 及二分图最大匹配，重点讲解 D、E、F、G 的解法。"
+    },
+    "posts/algorithm/ABC462.md": {
+      "contentHash": "5d1b0eb782d1100d02cf6c83913772ab024c888c5250eb400e749abe2e861e7f",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 462 题解覆盖 A 至 G 共七题，整体难度中等偏易。文章逐题给出题意、思路、参考代码与复杂度，重点讲解 C 的前缀最小值、D 的差分扫描、E 的奇偶分类讨论、F 的 DP 状态设计以及 G 的容斥加 NTT 多项式乘积。"
+    },
+    "posts/algorithm/ABC463.md": {
+      "contentHash": "1a7e11b586d3c48026e5f15823ef1d8a420ebc603448318099b75800583e6ce8",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 463 题解覆盖 A 至 G 共七题，逐题给出题意、思路与参考代码。文章重点讲解 C 题单调栈加二分、D 题二分答案配区间调度贪心、E 题超级源汇加 Dijkstra，以及 F 题组合概率分类讨论和 G 题随机游走期望结合莫队算法。"
+    },
+    "posts/algorithm/ABC464.md": {
+      "contentHash": "ff7f0ad4ba7cbcedbc04e8e96953cde8f43fed42daac48aa62b22d158c9e54bb",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解整理了 AtCoder Beginner Contest 464 的 A 至 G 题解法，涵盖字符串统计、网格裁剪、差分事件、线性 DP、二维后缀最大值、meet-in-the-middle 期望计数及归约到 JOISC 2018 贪心的长转化链，并附有思路与参考代码。"
+    },
+    "posts/algorithm/ABC465.md": {
+      "contentHash": "1d2a9987f0bcb8ae0a3db7a995c0d53b7945de7f4959aef6c8d65f9a9d543340",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "AtCoder Beginner Contest 465 题解覆盖 A 至 G 共七题，整体难度中等偏上。文章逐题给出题意、思路与参考代码，重点讲解 C 的追加翻转改写、D 的树形贪心、E 的数位 DP 状态设计以及 G 的答案分解与容斥。"
+    },
+    "posts/algorithm/ABC466.md": {
+      "contentHash": "9a88f346ff1897b08669ad709e30101a43f95f6a884a4725451a2eb55a9e56d8",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 466 题解覆盖 A 至 G 共七题，逐题给出题意、思路与参考代码。文章重点讲解 C 的交互式滑动窗口、E 的区间翻转转段划分 DP、F 的区间多重集取模统计，以及 G 的带权并查集与按位 DP 计数。"
+    },
+    "posts/algorithm/ABC467.md": {
+      "contentHash": "dd90fe99a50c3d1886af531661545123abe7f24325c085a853c133aa74f65b3a",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 467 题解覆盖 A 至 G 共七题，从入门判断、贪心求和到计算几何、动态前 t 大和查询。重点讲解 E 的候选解集与差分更新、F 的线段树合并、G 的索引值对调技巧。"
+    },
+    "posts/algorithm/ABC468.md": {
+      "contentHash": "95ed1cba2762bf4f897520d25d593aa81ac308f796753ef25cad0cf3e8a50f31",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇 AtCoder Beginner Contest 468 题解覆盖 A 至 G 共七题，从局部峰值统计、守卫覆盖计数、排列字典序枚举，到回文错配刻画、平均值求和、动态规划与组合计数，逐题给出思路、代码与复杂度分析。"
+    },
+    "posts/algorithm/ABC469.md": {
+      "contentHash": "05fb084f393e70fa876856164a2583e869061a2c918225554a8efcc437b3cdc7",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "本场 AtCoder Beginner Contest 469 共 A–G 七题，整体难度中等偏易。题解逐题给出题意、思路与代码，涵盖算术换算、暴力枚举、前缀和与双指针、二分答案、最大生成树及二面体群结合矩阵快速幂等内容。"
+    },
+    "posts/algorithm/ABC470.md": {
+      "contentHash": "97598aeaa3281deea46718f31083346b71cc50f532761944520bcaf49f114975",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "这篇题解记录了 AtCoder Beginner Contest 470 的 A 至 G 题解法，涵盖模拟、XOR 差分更新、逆排列维护、期望 DP、置换奇偶性计数和子数组 mex 求和等问题，重点讲解 C 的摊还分析、D 的双数组技巧及 F、G 的综合思路。"
+    }
+  }
 }
