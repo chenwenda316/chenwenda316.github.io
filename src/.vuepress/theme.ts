@@ -2,9 +2,10 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import encryption from "./encryption.js";
 
 export default hopeTheme({
-  hostname: "https://chenwenda316.github.io",
+  hostname: "https://blog.for-each.cn",
 
   author: {
     name: "for-each",
@@ -43,46 +44,7 @@ export default hopeTheme({
   },
 
   // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "788889",
-      },
-      "/posts/杂记/00_beginner_quickstart.html": {
-        hint: "请输入密码查看本文",
-        password: "##@@",
-      },
-      "/posts/杂记/01_dataset_simulation.html": {
-        hint: "请输入密码查看本文",
-        password: "##@@",
-      },
-      "/posts/杂记/02_features_and_labels.html": {
-        hint: "请输入密码查看本文",
-        password: "##@@",
-      },
-      "/posts/杂记/03_model_architecture.html": {
-        hint: "请输入密码查看本文",
-        password: "##@@",
-      },
-      "/posts/杂记/04_training_and_loss.html": {
-        hint: "请输入密码查看本文",
-        password: "##@@",
-      },
-      "/posts/杂记/05_evaluation_and_inference.html": {
-        hint: "请输入密码查看本文",
-        password: "##@@",
-      },
-      "/posts/杂记/06_code_map_and_commands.html": {
-        hint: "请输入密码查看本文",
-        password: "##@@",
-      },
-      "/posts/杂记/07_assumptions_and_extensions.html": {
-        hint: "请输入密码查看本文",
-        password: "##@@",
-      },
-    },
-  },
+  encrypt: encryption,
 
   // 多语言配置
   metaLocales: {
