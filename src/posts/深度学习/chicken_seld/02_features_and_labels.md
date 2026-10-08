@@ -1,6 +1,7 @@
 ---
 category:
-  - 杂记
+  - 深度学习
+  - chicken_seld
 ---
 
 # 02 特征与标签

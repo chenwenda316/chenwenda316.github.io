@@ -1,6 +1,7 @@
 ---
 category:
-  - 杂记
+  - 深度学习
+  - chicken_seld
 ---
 
 # 01 数据集与空间仿真

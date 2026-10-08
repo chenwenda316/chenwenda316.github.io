@@ -1,6 +1,7 @@
 ---
 category:
-  - 杂记
+  - 深度学习
+  - chicken_seld
 ---
 
 # 05 评估与推理

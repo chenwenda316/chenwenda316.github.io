@@ -2,8 +2,9 @@
 icon: book
 date: 1970-01-01
 category:
-  - 杂记
-title: 模型与代码说明
+  - 深度学习
+  - chicken_seld
+title: chicken_seld
 article: false
 ---
 

@@ -28,9 +28,9 @@ export default navbar([
         link: "algorithm/README.md"
       },
       {
-        text: "杂记",
-        icon: "book",
-        link: "杂记/README.md"
+        text: "深度学习",
+        icon: "brain",
+        link: "深度学习/README.md"
       },
     ],
   },
