@@ -330,6 +330,24 @@
       "promptVersion": 1,
       "model": "deepseek-chat",
       "summary": "这篇题解记录了 AtCoder Beginner Contest 470 的 A 至 G 题解法，涵盖模拟、XOR 差分更新、逆排列维护、期望 DP、置换奇偶性计数和子数组 mex 求和等问题，重点讲解 C 的摊还分析、D 的双数组技巧及 F、G 的综合思路。"
+    },
+    "posts/深度学习/dino/DINOv3_创新点报告.md": {
+      "contentHash": "0e611b6b09ebc8a450b4832623459daf2341c835599626c131db3791255b6645",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "Meta AI 的 DINOv3 视觉基础模型技术报告提出三条主线创新：数据、模型与训练时长 scaling，Gram anchoring 修复长训练下 dense 特征退化，以及高分辨率适配、蒸馏、文本对齐等后处理策略，使冻结骨干在检测、分割、深度等稠密任务上超越专用方案。"
+    },
+    "posts/深度学习/dino/DINOv3_教程报告.md": {
+      "contentHash": "22e00c72aeb89d573f201535d8fd053487de2b293a8d1331bb59d2480fdca1a2",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "DINOv3是Meta于2025年8月发布的视觉基础模型，旗舰ViT-7B在16.89亿张图上自监督训练，擅长分割、深度估计等密集任务，冻结主干即可用。教程面向有PyTorch基础的读者，讲解环境搭建、权重申请、特征提取与下游应用，并说明其不做零样本分类、官方推荐冻结使用。"
+    },
+    "posts/深度学习/dino/DINOv3_模型参数报告.md": {
+      "contentHash": "f46b1ce74da058ea79f82b6d6d5e5e6657186b699cae8356dc8b1d2e7489b332",
+      "promptVersion": 1,
+      "model": "deepseek-chat",
+      "summary": "Meta AI 的 DINOv3 视觉基础模型族共 12 个 checkpoint，含 10 个网页版与 2 个卫星版，仅 ViT-7B 从零训练，其余由冻结的 ViT-7B 蒸馏。报告逐项列出各模型的参数量、架构超参、训练配置与评测结果，并区分论文与 HuggingFace 两套参数量口径。"
     }
   }
 }
