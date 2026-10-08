@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T17:06:48.744Z",
+  "generatedAt": "2026-10-08T17:04:46.212Z",
   "posts": [
+    {
+      "id": "posts/深度学习/dino/DINOv3_创新点报告.md",
+      "title": "DINOv3 创新点报告",
+      "url": "https://blog.for-each.cn/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/dino/DINOv3_%E5%88%9B%E6%96%B0%E7%82%B9%E6%8A%A5%E5%91%8A.html",
+      "date": "2026-10-08",
+      "author": "for-each",
+      "categories": [
+        "深度学习",
+        "dino"
+      ],
+      "tags": [],
+      "summary": "Meta AI 的 DINOv3 视觉基础模型技术报告提出三条主线创新：数据、模型与训练时长 scaling，Gram anchoring 修复长训练下 dense 特征退化，以及高分辨率适配、蒸馏、文本对齐等后处理策略，使冻结骨干在检测、分割、深度等稠密任务上超越专用方案。",
+      "summaryStatus": "cached",
+      "preview": "主题：Meta AI DINOv3 视觉基础模型（技术报告 arXiv:2508.10104v1，2025-08-13，全文 67 页：正文 §1–§10 至 p.37、References 自 p.38 起、附录至 p.67）。 目标读者：想理解「DINOv3 为什么强、每个设计选择背后的道理」的研究者。 组织原则：每个创新点都按 动机（解决什么问题）→ 机制（为什么这样做有效）→ 具体做法 → 实验证据（精确数字）→ 消融结论 → 局限 展开。 页数出处：dinov3_paper_clean.txt 的 PDF 页标为 PAGE 1–PAGE 67；§10 Conclusion（clean",
+      "previewTruncated": true,
+      "featured": false
+    },
+    {
+      "id": "posts/深度学习/dino/DINOv3_教程报告.md",
+      "title": "DINOv3 实战教程",
+      "url": "https://blog.for-each.cn/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/dino/DINOv3_%E6%95%99%E7%A8%8B%E6%8A%A5%E5%91%8A.html",
+      "date": "2026-10-08",
+      "author": "for-each",
+      "categories": [
+        "深度学习",
+        "dino"
+      ],
+      "tags": [],
+      "summary": "DINOv3是Meta于2025年8月发布的视觉基础模型，旗舰ViT-7B在16.89亿张图上自监督训练，擅长分割、深度估计等密集任务，冻结主干即可用。教程面向有PyTorch基础的读者，讲解环境搭建、权重申请、特征提取与下游应用，并说明其不做零样本分类、官方推荐冻结使用。",
+      "summaryStatus": "cached",
+      "preview": "写给「会一点 PyTorch、但完全没接触过 DINOv3」的工程师和学生。 目标：从「不知道 DINOv3 是什么」，走到「能把它跑起来、能放进自己的项目里」。 时间紧：只读 第 1、3、4、11 章，你就能跑起来并知道怎么用。 还没拿到权重授权：直接看 §3.7（随机初始化就能把环境与形状跑通）和 FAQ 第 31 条（替代路径）。 要做项目：第 5、6 章是核心；第 10 章帮你省掉大量踩坑时间。 用卷积（ConvNeXt）：见 §6.7；要零样本/开放词表：见 §6.8；要复现官方指标：见 §6.9。 想搞懂原理：第 9 章用大白话讲，不追求数学严格。 要自己训练：第 8 章逐段讲配置",
+      "previewTruncated": true,
+      "featured": false
+    },
+    {
+      "id": "posts/深度学习/dino/DINOv3_模型参数报告.md",
+      "title": "DINOv3 模型参数报告",
+      "url": "https://blog.for-each.cn/posts/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/dino/DINOv3_%E6%A8%A1%E5%9E%8B%E5%8F%82%E6%95%B0%E6%8A%A5%E5%91%8A.html",
+      "date": "2026-10-08",
+      "author": "for-each",
+      "categories": [
+        "深度学习",
+        "dino"
+      ],
+      "tags": [],
+      "summary": "Meta AI 的 DINOv3 视觉基础模型族共 12 个 checkpoint，含 10 个网页版与 2 个卫星版，仅 ViT-7B 从零训练，其余由冻结的 ViT-7B 蒸馏。报告逐项列出各模型的参数量、架构超参、训练配置与评测结果，并区分论文与 HuggingFace 两套参数量口径。",
+      "summaryStatus": "cached",
+      "preview": "对象：Meta AI 的 DINOv3 视觉基础模型族（技术报告 arXiv:2508.10104v1，2025-08-13）。 目标读者：希望彻底搞清 DINOv3 每个模型的规模、架构与训练超参的工程师与研究者。 数据纪律：本报告全部数字均取自本地资料文件，逐条标注来源；凡资料未给出者一律写「资料未给出」，不做推算或臆造。来源图例见 §12。 特别声明：sources/hf_facebook_dinov3-*_config.json 是 HuggingFace gated 模型返回的 401 错误页（每份仅 148–156 字节），不是真实 config，全文任何位置均不引用。 排版风险提",
+      "previewTruncated": true,
+      "featured": false
+    },
     {
       "id": "posts/algorithm/ABC421.md",
       "title": "AtCoder Beginner Contest 421 题解",
